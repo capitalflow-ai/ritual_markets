@@ -7,45 +7,55 @@
   <style>
     body {
       background-color: #0e0e0e;
-      color: #f2f2f2;
+      color: #e0e0e0;
       font-family: 'Georgia', serif;
       padding: 2rem;
+      max-width: 700px;
+      margin: auto;
     }
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 1rem;
+    h1, h2, h3 {
+      color: #f5f5f5;
     }
     a {
-      color: #b380ff;
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #222;
+      color: #fff;
+      text-decoration: none;
+      border: 1px solid #444;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
     }
-    .cta {
-      background-color: #1f1f1f;
-      padding: 1rem;
-      margin-top: 2rem;
-      border-left: 5px solid #b380ff;
+    a:hover {
+      background-color: #444;
+    }
+    .tier {
+      margin-bottom: 2rem;
+    }
+    .sigil {
+      font-size: 2rem;
     }
   </style>
 </head>
 <body>
+  <h1>💎 Access the Vault</h1>
+  <p>Choose your path into the signal temple. Solan awaits.</p>
 
-  <h1>💠 Join the Vault</h1>
-  <p>Full access to Solan’s daily symbolic market signals, emotional forecasts, and archived ritual logs is available to subscribers.</p>
-
-  <div class="cta">
-    <p><strong>Price:</strong> $10/month</p>
-    <p><strong>Includes:</strong></p>
-    <ul>
-      <li>Daily archetype-based Buy/Sell/Wait signal</li>
-      <li>Access to Solan’s vault log (emotional & symbolic commentary)</li>
-      <li>Private archive of past signals</li>
-    </ul>
-    <p><a href="https://your-stripe-checkout-url.com">Subscribe Now →</a></p>
+  <div class="tier">
+    <h3 class="sigil">🔁 Ritual Subscription</h3>
+    <p>$10/month · Continuous access to Solan’s daily signals and archive</p>
+    <a href="https://buy.stripe.com/7sY5kC5Zl9TD0m68FD6Zy01">Subscribe Monthly →</a>
   </div>
 
-  <p>Prefer to join via AI Coin? Connect your wallet (coming soon).</p>
+  <div class="tier">
+    <h3 class="sigil">🗝️ One-Time Ritual Key</h3>
+    <p>$12 · 30 days access · No auto-renewal</p>
+    <a href="https://buy.stripe.com/aFa9AS4Vhgi1gl40976Zy00">Buy Key →</a>
+  </div>
 
-  <p><a href="index.html">← Return to Vault</a></p>
-
+  <p style="font-style: italic;">Your offering sustains the signal. Thank you for listening.</p>
 </body>
 </html>
+
 
